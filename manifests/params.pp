@@ -1,4 +1,4 @@
-# == Class: puppet-java7-squeeze::params
+# == Class: puppet_java7_squeeze::params
 #
 # This class exists to declutter the default value assignment for class parameters.
 # and manage internally used variables in a central place.
@@ -19,7 +19,7 @@
 #
 # * Martin Seener <mailto:martin.seener@barzahlen.de>
 #
-class puppet-java7-squeeze::params {
+class puppet_java7_squeeze::params {
 
   ## Default values for the parameters of the main module class, init.pp
 

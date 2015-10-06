@@ -1,4 +1,4 @@
-# == Class: puppet-java7-squeeze
+# == Class: puppet_java7_squeeze
 #
 # This class is able to install or remove Oracle Java 7 on Debian Squeeze.
 #
@@ -21,12 +21,12 @@
 # === Examples
 #
 # * Installation:
-#     class { 'puppet-java7-squeeze':
+#     class { 'puppet_java7_squeeze':
 #       ensure => 'present'
 #     }
 #
 # * Removal/Decommissioning:
-#     class { 'puppet-java7-squeeze':
+#     class { 'puppet_java7_squeeze':
 #       ensure => 'absent',
 #     }
 #
@@ -34,9 +34,9 @@
 #
 # * Martin Seener <mailto:martin.seener@barzahlen.de>
 #
-class puppet-java7-squeeze (
-  $ensure = $puppet-java7-squeeze::params::ensure
-) inherits puppet-java7-squeeze::params {
+class puppet_java7_squeeze (
+  $ensure = $puppet_java7_squeeze::params::ensure
+) inherits puppet_java7_squeeze::params {
 
   ## Validate parameters
 
